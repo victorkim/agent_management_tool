@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Data files (these can be large)
+data/historical_export/*.json
+data/filtered_output/*.csv
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
