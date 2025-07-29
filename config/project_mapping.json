@@ -24,5 +24,16 @@
     "Bom Retiro",
     "Experiments"
   ],
-  "processed_date": "2025-07-28T20:23:21.242189"
+  "processed_date": "2025-07-28T21:02:22.506816",
+  "selected_conversations_count": 8,
+  "selected_conversation_ids": [
+    "b1e4c718-a2a6-4a24-8259-e10b6388f613",
+    "2f4d1d04-d52c-4c6b-a667-8f8249d87abe",
+    "36897026-def1-4e86-a7ca-123cf662b23a",
+    "005f7c9c-68c5-4226-83b5-4bed77daceea",
+    "524eb90a-30fc-4054-92b4-76488ad346e3",
+    "7c880d93-2777-4302-9f4c-5de0f3b451da",
+    "7518ebce-c1a0-427e-9fa9-f6f0f025596b",
+    "e8704fc9-6d54-485b-9a33-415045e86768"
+  ]
 }
