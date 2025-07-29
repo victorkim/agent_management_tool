@@ -48,13 +48,13 @@ class HistoricalParser:
         )
         self.logger = logging.getLogger(__name__)
     
-    def get_date_cutoff(self, days_back=60):
+    def get_date_cutoff(self, days_back=90):
         """Calculate cutoff date for filtering conversations"""
         cutoff = datetime.now() - timedelta(days=days_back)
         self.logger.info(f"Filtering conversations since: {cutoff.strftime('%Y-%m-%d')}")
         return cutoff
     
-    def parse_conversations_file(self, days_back=60):
+    def parse_conversations_file(self, days_back=90):
         """Parse conversations.json with memory-efficient streaming"""
         conversations_file = self.export_dir / "conversations.json"
         
@@ -245,7 +245,7 @@ class HistoricalParser:
             self.logger.error(f"Error loading projects file: {e}")
             return {}
     
-    def run(self, days_back=60):
+    def run(self, days_back=90):
         """Main execution method"""
         self.logger.info("Starting historical conversation processing...")
         
